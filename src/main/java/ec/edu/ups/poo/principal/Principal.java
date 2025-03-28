@@ -11,13 +11,13 @@ public class Principal {
     public static void main(String[] args) {
 
         Familiar familiar = new Familiar();
-        familiar.setCedula("1010101");
-        familiar.setNombre("Familiar Nombre 1");
-        familiar.setApellido("Familiar Apellido 1");
-        familiar.setDireccion("Familiar Direccion 1");
+        familiar.setCedula("1010109393");
+        familiar.setNombre("Familiar Nombre 2");
+        familiar.setApellido("Familiar Apellido 2");
+        familiar.setDireccion("Familiar Direccion 2");
         //establecemos los valores de los atributos de la clase hija
-        familiar.setParentesco("Familiar Parentesco 1");
-        familiar.setTipoDeSangre("Familiar Tipo de Sangre 1");
+        familiar.setParentesco("Familiar Parentesco 2");
+        familiar.setTipoDeSangre("Familiar Tipo de Sangre 2");
         // Instanciamos un objeto de tipo calendar
         GregorianCalendar gregorianCalendar = new GregorianCalendar();
         gregorianCalendar.set(2006,9,28);
