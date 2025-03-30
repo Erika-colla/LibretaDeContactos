@@ -8,9 +8,16 @@ public class Familiar extends Persona{
     private String tipoDeSangre;
     private GregorianCalendar fechaDeNacimiento;
 
+    public Familiar(String cedula, String nombre, String apellido, String direccion, String parentesco, String tipoDeSangre, int añoNacimiento) {
+    }
+
     public int calcularEdad(GregorianCalendar fechaDeNacimiento) {
+        if(fechaDeNacimiento==null){
+            return -1;
+        }
         int anioNacimiento = fechaDeNacimiento.getWeekYear();
-        return 2025 - anioNacimiento;
+        int anioActual=Calendar.getInstance().get(Calendar.YEAR);
+        return anioActual - anioNacimiento;
 
     }
 
@@ -25,6 +32,7 @@ public class Familiar extends Persona{
 
     public String getParentesco() {
         return parentesco;
+
     }
 
     public void setParentesco(String parentesco) {

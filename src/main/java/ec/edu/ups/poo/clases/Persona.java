@@ -30,7 +30,6 @@ public class Persona {
         this.apellido = apellido;
         this.cedula = cedula;
         this.direccion = direccion;
-
     }
 
     // Getters
