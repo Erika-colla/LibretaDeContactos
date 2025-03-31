@@ -30,11 +30,10 @@ public class Familiar extends Persona{
         this.fechaDeNacimiento = fechaDeNacimiento;
     }
 
+
     public String getParentesco() {
         return parentesco;
-
     }
-
     public void setParentesco(String parentesco) {
         this.parentesco = parentesco;
     }
